@@ -1,9 +1,15 @@
+.DS_Store
+.*.*.swp
+.*.*.swo
+.*.swp
+.*.swo
 *.annot
 *.cmo
 *.cma
 *.cmi
 *.a
 *.o
+*.obj
 *.cmx
 *.cmxs
 *.cmxa
