@@ -14,4 +14,5 @@
 *.cmxs
 *.cmxa
 rosalind_*.txt
+rosalind_*.*.txt
 *.out
