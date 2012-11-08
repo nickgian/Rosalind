@@ -16,6 +16,6 @@ let solve =
       | 0 -> if (chr = dna.[0]) then 1 else 0  
       | _ -> if (dna.[b.(i)] = chr) then b.(i)+1 else check chr (b.(i)-1)
   in
+    Printf.printf "0 ";
     iter (fun i -> b.(i) <- (check dna.[i] (i-1)); Printf.printf "%d " b.(i)) dna_len;
-    Printf.printf "\n";
 ;;
