@@ -17,8 +17,6 @@ let comple = function
 let complement dna = String.map comple dna
 ;;
 
-let isRevCompl dna = (dna = reverse ( complement dna));;
-
 let findRevCompl dna compl_dna n =
   let len = String.length dna in
   let rec iter i acc =
